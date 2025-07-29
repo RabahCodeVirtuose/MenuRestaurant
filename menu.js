@@ -264,7 +264,7 @@ async function ouvrirPopupAvecOptions(type, nom, prixBase) {
 }
 
   // Chargement du menu principal
-  fetch('Menu.xml')
+  fetch('menu.xml')
     .then(response => response.text())
     .then(str => (new window.DOMParser()).parseFromString(str, "text/xml"))
     .then(data => {
