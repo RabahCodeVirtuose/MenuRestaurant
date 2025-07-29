@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sauces>
+  <categorie nom="Sauces">
+  <produit id="117" typePersonnalisation="SAUCE">
+    <nom>Algérienne</nom>
+    
+  </produit>
+  <produit id="118" typePersonnalisation="SAUCE">
+    <nom>Biggy</nom>
+  
+  </produit>
+  <produit id="119" typePersonnalisation="SAUCE">
+    <nom>Samouraï</nom>
+    
+  </produit>
+  <produit id="120" typePersonnalisation="SAUCE">
+    <nom>Mayonnaise</nom>
+    
+  </produit>
+  <produit id="121" typePersonnalisation="SAUCE">
+    <nom>Curry</nom>
+  
+  </produit>
+  <produit id="122" typePersonnalisation="SAUCE">
+    <nom>Andalouse</nom>
+  
+  </produit>
+  <produit id="123" typePersonnalisation="SAUCE">
+    <nom>Moutarde</nom>
+    
+  </produit>
+  <produit id="124" typePersonnalisation="SAUCE">
+    <nom>Youpi</nom>
+    
+  </produit>
+  <produit id="125" typePersonnalisation="SAUCE">
+    <nom>Barbecue</nom>
+    
+  </produit>
+  <produit id="126" typePersonnalisation="SAUCE">
+    <nom>Ketchup</nom>
+    
+  </produit>
+  <produit id="127" typePersonnalisation="SAUCE">
+    <nom>Maison</nom>
+    
+  </produit>
+</categorie>
+</sauces>

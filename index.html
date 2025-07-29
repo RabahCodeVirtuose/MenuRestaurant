@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu du Restaurant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="Menu.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Segoe+UI&display=swap" rel="stylesheet">
+  <style>
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+  
+    <div id="logoemplacement">
+<img src="./images/logo.png" id="logo"> 
+</div>
+    <!-- Résumé de la commande -->
+    <div id="commande-summary">
+      <h2>🧾 Résumé de la commande</h2>
+
+      <p><strong>Produits sélectionnés :</strong></p>
+      <ul id="commande-produits">
+        <!-- Produits ajoutés à la commande -->
+      </ul>
+
+      <p>Total à payer : <span id="total">0.00 €</span></p>
+
+      <label for="montant-client">Montant donné par le client (€) :</label>
+      <input type="number" id="montant-client" placeholder="Ex: 50" min="0" step="0.01" style="width:50%">
+
+      <p>Monnaie à rendre : <strong id="monnaie">0.00 €</strong></p>
+    </div id="separateur">
+  <p></p>  
+    <div>
+      
+    </div>
+    <!-- Sélecteur de catégories -->
+    <div id="category-selector">
+      <select id="categories">
+        <!-- Options ajoutées dynamiquement -->
+      </select>
+    </div>
+
+    <!-- Liste des produits -->
+    <div id="product-list">
+      <!-- Produits ajoutés dynamiquement -->
+    </div>
+
+
+  </div>
+
+  <script src="Menu.js"></script>
+</body>
+</html>

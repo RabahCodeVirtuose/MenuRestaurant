@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<supplements>
+  <categorie nom="Suppléments">
+  <produit id="109" typePersonnalisation="SUPP">
+    <nom>Supplément Cheddar</nom>
+    <prix>1.00</prix>
+  </produit>
+  <produit id="110" typePersonnalisation="SUPP">
+    <nom>Supplément Boursin</nom>
+    <prix>1.00</prix>
+  </produit>
+  <produit id="111" typePersonnalisation="SUPP">
+    <nom>Supplément Œuf</nom>
+    <prix>1.00</prix>
+  </produit>
+  <produit id="112" typePersonnalisation="SUPP">
+    <nom>Supplément Sauce</nom>
+    <prix>0.30</prix>
+  </produit>
+</categorie>
+</supplements>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<boissons>
+  <categorie nom="Boissons Menu">
+  <produit id="128" typePersonnalisation="BOISSON">
+    <nom>Coca-Cola</nom>
+
+  </produit>
+  <produit id="129" typePersonnalisation="BOISSON">
+    <nom>Schweppes</nom>
+  
+  </produit>
+  <produit id="130" typePersonnalisation="BOISSON">
+    <nom>Hamoud la blanche</nom>
+  
+  </produit>
+  <produit id="131" typePersonnalisation="BOISSON">
+    <nom>Selecto</nom>
+  
+  </produit>
+  <produit id="132" typePersonnalisation="BOISSON">
+    <nom>Orangina</nom>
+  
+  </produit>
+</categorie>
+</boissons>

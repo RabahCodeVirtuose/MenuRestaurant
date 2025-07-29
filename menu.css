@@ -1,0 +1,323 @@
+:root {
+  --vert-fonce: #18534F;
+  --turquoise: #226D68;
+  --vert-clair: #ECF8F6;
+  --jaune-pastel: #FEEAA1;
+  --caramel: #D6955B;
+}
+
+/* Animation fade-in */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, var(--vert-clair), var(--jaune-pastel));
+  color: var(--vert-fonce);
+  animation: fadeIn 0.6s ease-out;
+}
+
+/* Container principal */
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(8px);
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Titre */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: var(--vert-fonce);
+}
+
+/* Sélecteur */
+#category-selector {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#category-selector label {
+  font-weight: bold;
+  margin-right: 10px;
+  color: var(--turquoise);
+}
+
+#categories {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: 1px solid var(--caramel);
+  font-size: 1em;
+  background-color: var(--vert-clair);
+  color: var(--vert-fonce);
+  transition: 0.3s ease;
+}
+
+#categories:focus {
+  border-color: var(--turquoise);
+  outline: none;
+}
+
+/* Liste des produits */
+#product-list {
+  margin-top: 20px;
+}
+
+.produit-item {
+  background: linear-gradient(to right, var(--vert-clair), #ffffff);
+  border-left: 4px solid var(--turquoise);
+  padding: 12px 15px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid var(--turquoise);
+  animation: fadeIn 0.3s ease;
+}
+
+.produit-item strong {
+  font-size: 1.05em;
+  color: var(--vert-fonce);
+  margin-bottom: 5px;
+  word-wrap: break-word;
+}
+
+.produit-item span {
+  font-weight: bold;
+  color: var(--turquoise);
+  margin-bottom: 10px;
+}
+
+/* Bouton ajouter */
+.btn-ajouter {
+  background: var(--vert-fonce);
+  color: var(--jaune-pastel);
+  border: none;
+  border-radius: 25px;
+  padding: 6px 16px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  align-self: center;
+}
+.btn-ajouter:hover {
+  background-color: var(--caramel);
+}
+
+/* Résumé de commande */
+#commande-summary {
+  margin-top: 30px;
+  padding: 15px;
+  border: 2px dashed var(--caramel);
+  border-radius: 12px;
+  background-color: var(--vert-clair);
+  animation: fadeIn 0.4s ease;
+}
+
+#commande-summary h2 {
+  margin-top: 0;
+  font-size: 1.3em;
+  color: var(--vert-fonce);
+}
+
+#commande-summary label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: var(--turquoise);
+}
+
+#commande-summary input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 1em;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--caramel);
+  background-color: #fff;
+}
+
+#commande-summary input:focus {
+  outline: none;
+  border-color: var(--turquoise);
+}
+
+#commande-summary span,
+#commande-summary strong {
+  font-size: 1.1em;
+  color: var(--vert-fonce);
+}
+
+/* Liste produits sélectionnés */
+#commande-produits li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  margin-left: -15%;
+  background: linear-gradient(to right, var(--jaune-pastel), var(--caramel));
+  border-left: 4px solid var(--turquoise);
+  font-size: 0.95em;
+  gap: 10px;
+}
+
+#commande-produits li span:first-child {
+  flex: 1;
+  word-wrap: break-word;
+  font-weight: bold;
+  color: var(--vert-fonce);
+}
+
+#commande-produits li span:nth-child(2) {
+  min-width: 65px;
+  text-align: right;
+  color: white;
+  font-weight: bold;
+}
+
+/* Bouton supprimer */
+.btn-supprimer {
+  background-color: #ffecec;
+  border: 1px solid #cc0000;
+  color: #cc0000;
+  border-radius: 4px;
+  padding: 4px 6px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.btn-supprimer:hover {
+  background-color: #ffbaba;
+}
+
+/* Logo */
+#logo {
+  height: 100%;
+  width: 100%;
+  align-self: center;
+}
+#logoemplacement {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
+
+/* Espace visuel */
+#separateur {
+  height: 100px;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: flex; justify-content: center; align-items: center;
+  z-index: 1000;
+}
+.popup {
+  background: white;
+  padding: 1em;
+  max-width: 90%;
+  max-height: 90%;
+  overflow-y: auto;
+  border-radius: 8px;
+}
+.popup label {
+  display: block;
+  margin: 0.5em 0;
+}
+
+.commande-carte {
+  background: linear-gradient(135deg, #fbd786, #f7797d);
+  border-radius: 14px;
+  padding: 12px;
+  margin-bottom: 16px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.commande-header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  margin-bottom: 10px;
+}
+
+.commande-nom {
+  flex: 1;
+  align-self:flex-start;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.commande-prix {
+  text-align: right;
+  align-self: flex-end;
+  min-width: 60px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.commande-details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 80%;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.commande-details li {
+  background-color: rgba(255,255,255,0.15);
+  border-radius: 10px;
+  padding: 8px 12px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.commande-details li strong {
+  font-size: 15px;
+  margin-bottom: 4px;
+  color: #004d40;
+}
+
+.commande-footer {
+  margin-top: 10px;
+  text-align: flex-start;
+}
+
+
+.commande-header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  margin-bottom: 10px;
+}
+
+#montant-client{
+  width: 10px;
+}

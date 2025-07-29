@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<crudites>
+  <categorie nom="Crudités">
+  <produit id="133" typePersonnalisation="CRUDITE">
+    <nom>Salade</nom>
+  </produit>
+  <produit id="134" typePersonnalisation="CRUDITE">
+    <nom>Tomates</nom>
+  </produit>
+  <produit id="135" typePersonnalisation="CRUDITE">
+    <nom>Oignons</nom>
+  </produit>
+  <produit id="136" typePersonnalisation="CRUDITE">
+    <nom>Cornichons</nom>
+  </produit>
+</categorie>
+</crudites>

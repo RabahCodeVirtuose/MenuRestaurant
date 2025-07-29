@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elements>
+  <categorie nom="À enlever">
+  <produit id="113" typePersonnalisation="REMOVE">
+    <nom>Sans œufs</nom>
+    <prix>0.00</prix>
+  </produit>
+  <produit id="114" typePersonnalisation="REMOVE">
+    <nom>Sans frites</nom>
+    <prix>0.00</prix>
+  </produit>
+  <produit id="115" typePersonnalisation="REMOVE">
+    <nom>Sans sauce</nom>
+    <prix>0.00</prix>
+  </produit>
+  <produit id="116" typePersonnalisation="REMOVE">
+    <nom>Sans fromage</nom>
+    <prix>0.00</prix>
+  </produit>
+</categorie>
+</elements>

@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+<categorie nom="Naan Menu">
+  <produit id="1" typePersonnalisation="A">
+    <nom>Le S3</nom>
+    <prix>9.20</prix>
+  </produit>
+  <produit id="2" typePersonnalisation="A">
+    <nom>Buffalo</nom>
+    <prix>10.50</prix>
+  </produit>
+  <produit id="3" typePersonnalisation="A">
+    <nom>Authentic</nom>
+    <prix>10.50</prix>
+  </produit>
+  <produit id="4" typePersonnalisation="A">
+    <nom>Platinum</nom>
+    <prix>10.50</prix>
+  </produit>
+  <produit id="5" typePersonnalisation="A">
+    <nom>Tenders &amp; Steak</nom>
+    <prix>9.90</prix>
+  </produit>
+  <produit id="6" typePersonnalisation="A">
+    <nom>Tenders</nom>
+    <prix>9.50</prix>
+  </produit>
+  <produit id="7" typePersonnalisation="A">
+    <nom>Suisse Max</nom>
+    <prix>10.90</prix>
+  </produit>
+  <produit id="8" typePersonnalisation="A">
+    <nom>Savoureux</nom>
+    <prix>9.90</prix>
+  </produit>
+  <produit id="9" typePersonnalisation="A">
+    <nom>Steak</nom>
+    <prix>9.00</prix>
+  </produit>
+  <produit id="10" typePersonnalisation="A">
+    <nom>Kebab</nom>
+    <prix>9.00</prix>
+  </produit>
+  <produit id="11" typePersonnalisation="A">
+    <nom>Végétarien</nom>
+    <prix>9.00</prix>
+  </produit>
+  <produit id="12" typePersonnalisation="A">
+    <nom>Mystère</nom>
+    <prix>13.50</prix>
+  </produit>
+  <produit id="13" typePersonnalisation="A">
+    <nom>Olives</nom>
+    <prix>9.50</prix>
+  </produit>
+  <produit id="14" typePersonnalisation="A">
+    <nom>Tandoori</nom>
+    <prix>9.50</prix>
+  </produit>
+  <produit id="15" typePersonnalisation="A">
+    <nom>Thaï</nom>
+    <prix>9.50</prix>
+  </produit>
+  <produit id="16" typePersonnalisation="A">
+    <nom>Curry</nom>
+    <prix>9.50</prix>
+  </produit>
+</categorie>
+<!-- NAN SEUL -->
+<categorie nom="Naan Seul">
+  <produit id="17" typePersonnalisation="B">
+    <nom>Le S3</nom>
+    <prix>8.20</prix>
+  </produit>
+  <produit id="18" typePersonnalisation="B">
+    <nom>Buffalo</nom>
+    <prix>9.50</prix>
+  </produit>
+  <produit id="19" typePersonnalisation="B">
+    <nom>Authentic</nom>
+    <prix>9.50</prix>
+  </produit>
+  <produit id="20" typePersonnalisation="B">
+    <nom>Platinum</nom>
+    <prix>9.50</prix>
+  </produit>
+  <produit id="21" typePersonnalisation="B">
+    <nom>Tenders &amp; Steak</nom>
+    <prix>8.90</prix>
+  </produit>
+  <produit id="22" typePersonnalisation="B">
+    <nom>Tenders</nom>
+    <prix>8.50</prix>
+  </produit>
+  <produit id="23" typePersonnalisation="B">
+    <nom>Suisse Max</nom>
+    <prix>9.90</prix>
+  </produit>
+  <produit id="24" typePersonnalisation="B">
+    <nom>Savoureux</nom>
+    <prix>8.90</prix>
+  </produit>
+  <produit id="25" typePersonnalisation="B">
+    <nom>Steak</nom>
+    <prix>8.00</prix>
+  </produit>
+  <produit id="26" typePersonnalisation="B">
+    <nom>Kebab</nom>
+    <prix>8.00</prix>
+  </produit>
+  <produit id="27" typePersonnalisation="B">
+    <nom>Végétarien</nom>
+    <prix>8.00</prix>
+  </produit>
+  <produit id="28" typePersonnalisation="B">
+    <nom>Mystère (2 viandes au choix)</nom>
+    <prix>12.50</prix>
+  </produit>
+  <produit id="29" typePersonnalisation="B">
+    <nom>Olives</nom>
+    <prix>8.50</prix>
+  </produit>
+  <produit id="30" typePersonnalisation="B">
+    <nom>Tandoori</nom>
+    <prix>8.50</prix>
+  </produit>
+  <produit id="31" typePersonnalisation="B">
+    <nom>Thaï</nom>
+    <prix>8.50</prix>
+  </produit>
+  <produit id="32" typePersonnalisation="B">
+    <nom>Curry</nom>
+    <prix>8.50</prix>
+  </produit>
+</categorie>
+
+<!-- WINGS & TENDERS MENU -->
+<categorie nom="Wings &amp; Tenders Menu">
+  <produit id="33" typePersonnalisation="A">
+    <nom>3 Tenders</nom>
+    <prix>9.00</prix>
+  </produit>
+  <produit id="34" typePersonnalisation="A">
+    <nom>5 Tenders</nom>
+    <prix>10.00</prix>
+  </produit>
+  <produit id="35" typePersonnalisation="A">
+    <nom>7 Wings</nom>
+    <prix>9.00</prix>
+  </produit>
+  <produit id="36" typePersonnalisation="A">
+    <nom>10 Wings</nom>
+    <prix>10.00</prix>
+  </produit>
+  <produit id="37" typePersonnalisation="A">
+    <nom>18 Wings</nom>
+    <prix>13.00</prix>
+  </produit>
+  <produit id="38" typePersonnalisation="C">
+    <nom>33 Wings</nom>
+    <prix>22.90</prix>
+  </produit>
+  <produit id="39" typePersonnalisation="C">
+    <nom>50 Wings</nom>
+    <prix>33.90</prix>
+  </produit>
+  <produit id="40" typePersonnalisation="C">
+    <nom>100 Wings</nom>
+    <prix>63.90</prix>
+  </produit>
+</categorie>
+
+<!-- WINGS & TENDERS SEULS -->
+<categorie nom="Wings &amp; Tenders Seuls">
+  <produit id="41" typePersonnalisation="B">
+    <nom>3 Tenders</nom>
+    <prix>8.00</prix>
+  </produit>
+  <produit id="42" typePersonnalisation="B">
+    <nom>5 Tenders</nom>
+    <prix>9.00</prix>
+  </produit>
+  <produit id="43" typePersonnalisation="B">
+    <nom>7 Wings</nom>
+    <prix>8.00</prix>
+  </produit>
+  <produit id="44" typePersonnalisation="B">
+    <nom>10 Wings</nom>
+    <prix>9.00</prix>
+  </produit>
+  <produit id="45" typePersonnalisation="B">
+    <nom>18 Wings</nom>
+    <prix>12.00</prix>
+  </produit>
+</categorie>
+
+<categorie nom="Bergers Menu">
+  <produit id="46" typePersonnalisation="A">
+    <nom>Cheese</nom>
+    <prix>5.50</prix>
+  </produit>
+  <produit id="47" typePersonnalisation="A">
+    <nom>Royale</nom>
+    <prix>6.00</prix>
+  </produit>
+  <produit id="48" typePersonnalisation="A">
+    <nom>Double Cheese</nom>
+    <prix>6.50</prix>
+  </produit>
+  <produit id="49" typePersonnalisation="A">
+    <nom>Spicy Meat</nom>
+    <prix>9.50</prix>
+  </produit>
+  <produit id="50" typePersonnalisation="A">
+    <nom>Chicken Beef</nom>
+    <prix>9.50</prix>
+  </produit>
+  <produit id="51" typePersonnalisation="A">
+    <nom>Chicken Crousty</nom>
+    <prix>9.50</prix>
+  </produit>
+  <produit id="52" typePersonnalisation="A">
+    <nom>180G</nom>
+    <prix>9.90</prix>
+  </produit>
+  <produit id="53" typePersonnalisation="A">
+    <nom>360G</nom>
+    <prix>10.50</prix>
+  </produit>
+  <produit id="54" typePersonnalisation="A">
+    <nom>540G</nom>
+    <prix>12.50</prix>
+  </produit>
+  <produit id="55" typePersonnalisation="A">
+    <nom>Berger Végétarien</nom>
+    <prix>7.50</prix>
+  </produit>
+  <produit id="56" typePersonnalisation="A">
+    <nom>Big Cheese</nom>
+    <prix>8.00</prix>
+  </produit>
+</categorie>
+
+<categorie nom="Bergers Seuls">
+  <produit id="57" typePersonnalisation="B">
+    <nom>Cheese</nom>
+    <prix>4.50</prix>
+  </produit>
+  <produit id="58" typePersonnalisation="B">
+    <nom>Royale</nom>
+    <prix>5.00</prix>
+  </produit>
+  <produit id="59" typePersonnalisation="B">
+    <nom>Double Cheese</nom>
+    <prix>5.50</prix>
+  </produit>
+  <produit id="60" typePersonnalisation="B">
+    <nom>Spicy Meat</nom>
+    <prix>8.50</prix>
+  </produit>
+  <produit id="61" typePersonnalisation="B">
+    <nom>Chicken Beef</nom>
+    <prix>8.50</prix>
+  </produit>
+  <produit id="62" typePersonnalisation="B">
+    <nom>Chicken Crousty</nom>
+    <prix>8.50</prix>
+  </produit>
+  <produit id="63" typePersonnalisation="B">
+    <nom>180G</nom>
+    <prix>8.90</prix>
+  </produit>
+  <produit id="64" typePersonnalisation="B">
+    <nom>360G</nom>
+    <prix>9.50</prix>
+  </produit>
+  <produit id="65" typePersonnalisation="B">
+    <nom>540G</nom>
+    <prix>11.50</prix>
+  </produit>
+  <produit id="66" typePersonnalisation="B">
+    <nom>Berger Végétarien</nom>
+    <prix>6.50</prix>
+  </produit>
+  <produit id="67" typePersonnalisation="B">
+    <nom>Big Cheese</nom>
+    <prix>7.00</prix>
+  </produit>
+</categorie>
+
+<categorie nom="Formules Spéciales">
+
+  <produit id="68" typePersonnalisation="A">
+    <nom>Duo Un (Wings ou Tenders + Berger + Frites + Boisson)</nom>
+    <prix>12.00</prix>
+  </produit>
+
+  <produit id="69" typePersonnalisation="A">
+    <nom>Duo Deux (Wings ou Nuggets + Naan Chicken + Boisson)</nom>
+    <prix>12.00</prix>
+  </produit>
+
+  <produit id="70" typePersonnalisation="A">
+    <nom>Menu 5 Nuggets</nom>
+    <prix>4.50</prix>
+  </produit>
+
+  <produit id="71" typePersonnalisation="A">
+    <nom>Menu 10 Nuggets</nom>
+    <prix>6.50</prix>
+  </produit>
+
+  <produit id="72" typePersonnalisation="A">
+    <nom>Menu César (Salade + Boisson)</nom>
+    <prix>8.50</prix>
+  </produit>
+
+  <produit id="73" typePersonnalisation="A">
+    <nom>Menu Nuggets 5 (Frites + Boisson)</nom>
+    <prix>6.50</prix>
+  </produit>
+
+  <produit id="74" typePersonnalisation="A">
+    <nom>Menu Nuggets 10 (Frites + Boisson)</nom>
+    <prix>8.50</prix>
+  </produit>
+
+  <produit id="75" typePersonnalisation="B">
+    <nom>Cheese Naan</nom>
+    <prix>2.50</prix>
+  </produit>
+
+</categorie>
+
+<!-- Divers (menus enfants) -->
+<categorie nom="Menus Enfant">
+  <produit id="76" typePersonnalisation="A">
+    <nom>Menu Enfant Berger + frites + jus</nom>
+    <prix>6.50</prix>
+  </produit>
+  <produit id="77" typePersonnalisation="A">
+    <nom>Menu Enfant Tenders + frites + jus</nom>
+    <prix>6.50</prix>
+  </produit>
+  <produit id="78" typePersonnalisation="A">
+    <nom>Menu Enfant Nuggets + frites + jus</nom>
+    <prix>6.50</prix>
+  </produit>
+</categorie>
+
+<categorie nom="Desserts">
+
+  <produit id="79" typePersonnalisation="C">
+    <nom>Milkshake Oreo</nom>
+    <prix>5.50</prix>
+  </produit>
+  <produit id="80" typePersonnalisation="C">
+    <nom>Milkshake Kinder Bueno</nom>
+    <prix>5.50</prix>
+  </produit>
+  <produit id="81" typePersonnalisation="C">
+    <nom>Milkshake Snickers</nom>
+    <prix>5.50</prix>
+  </produit>
+  <produit id="82" typePersonnalisation="C">
+    <nom>Milkshake Twix</nom>
+    <prix>5.50</prix>
+  </produit>
+  <produit id="83" typePersonnalisation="C">
+    <nom>Milkshake KitKat</nom>
+    <prix>5.50</prix>
+  </produit>
+
+  <produit id="84" typePersonnalisation="C">
+    <nom>Supplément Chantilly</nom>
+    <prix>0.50</prix>
+  </produit>
+
+  <produit id="85" typePersonnalisation="C">
+    <nom>Smoothie Rosso (Framboise, Banane)</nom>
+    <prix>5.50</prix>
+  </produit>
+  <produit id="86" typePersonnalisation="C">
+    <nom>Smoothie Paradisio (Ananas, Banane)</nom>
+    <prix>5.50</prix>
+  </produit>
+  <produit id="87" typePersonnalisation="C">
+    <nom>Smoothie Bahamas (Framboise, Banane)</nom>
+    <prix>5.50</prix>
+  </produit>
+  <produit id="88" typePersonnalisation="C">
+    <nom>Smoothie Mango (Mangue, Banane)</nom>
+    <prix>5.50</prix>
+  </produit>
+  <produit id="89" typePersonnalisation="C">
+    <nom>Smoothie Rouge Passion (Framboise, Fruit rouge)</nom>
+    <prix>5.50</prix>
+  </produit>
+  <produit id="90" typePersonnalisation="C">
+    <nom>Smoothie Caraïbos (Ananas, Mangue)</nom>
+    <prix>5.50</prix>
+  </produit>
+
+</categorie>
+<!-- Boissons -->
+<categorie nom="Boissons">
+  <produit id="91" typePersonnalisation="C">
+    <nom>Coca-Cola</nom>
+    <prix>1.50</prix>
+  </produit>
+  <produit id="92" typePersonnalisation="C">
+    <nom>Schweppes</nom>
+    <prix>1.50</prix>
+  </produit>
+  <produit id="93" typePersonnalisation="C">
+    <nom>Hamoud la blanche</nom>
+    <prix>1.50</prix>
+  </produit>
+  <produit id="94" typePersonnalisation="C">
+    <nom>Selecto</nom>
+    <prix>1.50</prix>
+  </produit>
+  <produit id="95" typePersonnalisation="C">
+    <nom>Orangina</nom>
+    <prix>1.50</prix>
+  </produit>
+</categorie>
+
+
+
+
+</menu>
